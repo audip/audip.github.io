@@ -38,7 +38,7 @@ if($_POST)
 <html>
 	<head>
 		<title>Renaissance Pirates | Task 1</title>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<style>
 			body{
 				font-size: 18px;
@@ -129,16 +129,16 @@ if($_POST)
 		$u10=$row['u10'];
 	}
 	//echo $n1.'<br/>'.$n2.'<br/>'.$n3.'<br/>'.$n4.'<br/>'.$n5.'<br/>';
-	$link1='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u1.'&username='.$username;
-	$link2='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u2.'&username='.$username;
-	$link3='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u3.'&username='.$username;
-	$link4='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u4.'&username='.$username;
-	$link5='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u5.'&username='.$username;
-	$link6='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u6.'&username='.$username;
-	$link7='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u7.'&username='.$username;
-	$link8='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u8.'&username='.$username;
-	$link9='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u9.'&username='.$username;
-	$link10='http://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u10.'&username='.$username;
+	$link1='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u1.'&username='.$username;
+	$link2='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u2.'&username='.$username;
+	$link3='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u3.'&username='.$username;
+	$link4='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u4.'&username='.$username;
+	$link5='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u5.'&username='.$username;
+	$link6='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u6.'&username='.$username;
+	$link7='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u7.'&username='.$username;
+	$link8='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u8.'&username='.$username;
+	$link9='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u9.'&username='.$username;
+	$link10='https://u8130180.nettech.net.in/quiz/fbtask1.php?uid='.$u10.'&username='.$username;
 
 	//echo $link1.'<br/>'.$link2.'<br/>'.$link3.'<br/>'.$link4.'<br/>'.$link5.'<br/>';
 	$feed="UPDATE quizuser SET u1='$u1',u2='$u2',u3='$u3',u4='$u4',u5='$u5',u6='$u6',u7='$u7',u8='$u8',u9='$u9',u10='$u10',t1='1' WHERE username='$username'";

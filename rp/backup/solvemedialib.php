@@ -9,9 +9,9 @@
  *
  * This is a PHP library that handles calling SolveMedia.
  *    - Documentation and latest version
- *          http://www.solvemedia.com/
+ *          https://www.solvemedia.com/
  *    - Get a SolveMedia API Keys
- *          http://api.solvemedia.com/public/signup
+ *          https://api.solvemedia.com/public/signup
  */
 
 /* This code is based on code from,
@@ -44,10 +44,10 @@
 /**
  * The solvemedia server URL's
  */
-define("ADCOPY_API_SERVER",        "http://api.solvemedia.com");
+define("ADCOPY_API_SERVER",        "https://api.solvemedia.com");
 define("ADCOPY_API_SECURE_SERVER", "https://api-secure.solvemedia.com");
 define("ADCOPY_VERIFY_SERVER",     "verify.solvemedia.com");
-define("ADCOPY_SIGNUP",            "http://api.solvemedia.com/public/signup");
+define("ADCOPY_SIGNUP",            "https://api.solvemedia.com/public/signup");
 
 /**
  * Encodes the given data into a query string format

@@ -14,7 +14,7 @@
 	    	$otp=$row['otp'];
 	    	if($otp='')
 	    	{
-		    	$link='<a href="http://eclectika.org/quiz/verify.php?otp='.$otp.'">VERIFY EMAIL ADDRESS</a>';
+		    	$link='<a href="https://eclectika.org/quiz/verify.php?otp='.$otp.'">VERIFY EMAIL ADDRESS</a>';
 			 //Resend verification mail
 		    	//die();
 	    	}

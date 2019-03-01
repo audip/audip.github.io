@@ -6,7 +6,7 @@
  * not use this file except in compliance with the License. You may obtain
  * a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *     https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
@@ -383,7 +383,7 @@ abstract class BaseFacebook
 
   /**
    * Extend an access token, while removing the short-lived token that might
-   * have been generated via client-side flow. Thanks to http://bit.ly/b0Pt0H
+   * have been generated via client-side flow. Thanks to https://bit.ly/b0Pt0H
    * for the workaround.
    */
   public function setExtendedAccessToken() {
@@ -1298,7 +1298,7 @@ abstract class BaseFacebook
     // use port if non default
     $port =
       isset($parts['port']) &&
-      (($protocol === 'http://' && $parts['port'] !== 80) ||
+      (($protocol === 'https://' && $parts['port'] !== 80) ||
        ($protocol === 'https://' && $parts['port'] !== 443))
       ? ':' . $parts['port'] : '';
 

@@ -112,7 +112,7 @@ if($_POST)
                     </tr>
 
                     <tr>
-                        <td colspan="3"><small><em>Username/Email used to signup for <a href="http://eclectika.org" target="_blank">Eclectika.org</a></em></small></td>
+                        <td colspan="3"><small><em>Username/Email used to signup for <a href="https://eclectika.org" target="_blank">Eclectika.org</a></em></small></td>
                     </tr>
 
                     <tr>

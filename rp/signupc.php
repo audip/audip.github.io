@@ -48,7 +48,7 @@ if($_POST)
 					$q4="INSERT INTO stuinfo VALUES('','$name','$username','$password','$college','$mobile','$email','$gender','$branch','$year','$pic','$otp')";
 					//echo $q4;die();
 					mysqli_query($con, $q4);
-					$link='<a href="http://eclectika.org/verify.php?otp='.$otp.'">Verify Email</a>';
+					$link='<a href="https://eclectika.org/verify.php?otp='.$otp.'">Verify Email</a>';
 					echo '<br/>Registration Complete!!';
 					//echo $link;
 					//mail();

@@ -48,7 +48,7 @@ if($_POST)
 					$q4="INSERT INTO stuinfo VALUES('','$name','$username','$password','$college','$mobile','$email','$gender','$branch','$year','$pic','$fb','0')";
 					//echo $q4;die();
 					mysqli_query($con, $q4);
-					$link='<a href="http://u8130180.nettech.net.in/quiz/verify.php?otp='.$otp.'">Verify Email</a>';
+					$link='<a href="https://u8130180.nettech.net.in/quiz/verify.php?otp='.$otp.'">Verify Email</a>';
 					echo '<br/>Registration Complete!!';
 					//echo $link;
 					//mail();
@@ -303,7 +303,7 @@ if($_POST)
         </div>
     </div>
     <div id='fb-root'></div>
-	<script src='http://connect.facebook.net/en_US/all.js'></script>
+	<script src='https://connect.facebook.net/en_US/all.js'></script>
 	<script>
 				FB.init({
     appId      : '302979109716651',

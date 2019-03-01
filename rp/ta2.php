@@ -6,7 +6,7 @@ session_start();
 <html>
 	<head>
 		<title>Renaissance Pirates | Task 1</title>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<style>
 			body{
 				font-size: 18px;
@@ -195,7 +195,7 @@ session_start();
 	<tr><td colspan="3">&nbsp;</td></tr>
 	<tr>
 		<td>5.</td>
-		<td>A <a href="http://en.wikipedia.org/wiki/Fibonacci_number" target="_blank">Fibbonaci series</a> goes like 0 1 1 2.. What is the seventh digit of this series?</td>
+		<td>A <a href="https://en.wikipedia.org/wiki/Fibonacci_number" target="_blank">Fibbonaci series</a> goes like 0 1 1 2.. What is the seventh digit of this series?</td>
 		<td>
 			<input type="text" size="1" maxlength="1"/>
 			<input type="text" size="1" maxlength="1"/>

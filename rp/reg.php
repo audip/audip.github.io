@@ -7,9 +7,9 @@ require_once('fb.php');
 //include the Solve Media library
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css' />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Eclectika Signup</title>
@@ -91,19 +91,19 @@ require_once('fb.php');
     </style>
 </head>
 
-<body style="background-image:url(http://eclectika.org/test3/css/images/bg.jpg);background-size:cover;height:100%;width:100%; background-attachment:fixed; font-family:Merienda;">
+<body style="background-image:url(https://eclectika.org/test3/css/images/bg.jpg);background-size:cover;height:100%;width:100%; background-attachment:fixed; font-family:Merienda;">
     <div id="wrapper">
         <div id="header" class="header">
             <ul>
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white">Home</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white">Home</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Online Events</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Online Events</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Accomodation</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Accomodation</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Events</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Events</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Contact Us</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Contact Us</a></li>
             </ul>
         </div>
 
@@ -153,11 +153,11 @@ if($_POST)
 					$q4="INSERT INTO stuinfo VALUES('','$name','$username','$password','$college','$mobile','$email','$gender','$branch','$year','$pic','$otp','1')";
 					//echo $q4;die();
 					mysqli_query($con, $q4);
-					$link='<a href="http://eclectika.org/verify.php?otp='.$otp.'">Verify Email</a>';
+					$link='<a href="https://eclectika.org/verify.php?otp='.$otp.'">Verify Email</a>';
 					echo '<br/>Registration Complete!!';
 					//echo $link;
 					//mail();
-					header('location:http://eclectika.org/index1.php');
+					header('location:https://eclectika.org/index1.php');
 				}
 			}
 
@@ -364,7 +364,7 @@ if($_POST)
     </div>
     
 	<div id='fb-root'></div>
-	<script src='http://connect.facebook.net/en_US/all.js'></script>
+	<script src='https://connect.facebook.net/en_US/all.js'></script>
 	<script>
 				FB.init({
     appId      : '302979109716651',

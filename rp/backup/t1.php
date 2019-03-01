@@ -41,7 +41,7 @@
 
 </div>
  <input type="button" id="btnLoad" value="Load" />
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
  <script>
 	$(".disguise").click(function(){
 

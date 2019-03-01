@@ -17,11 +17,11 @@ header('location:login.php');
 		<meta charset="UTF-8">
 		<meta http-equiv="refresh" content="120;index.php"/>
 		<meta name="keywords" content="Eclectika 2014, Treasure Hunt, Eclectika, Online Game, Pre-Eclectika Event">
-		<meta name="author" content="Aditya Purandare http://plus.google.com/+AdityaPurandare,
+		<meta name="author" content="Aditya Purandare https://plus.google.com/+AdityaPurandare,
 				Krishna Mohan Srivastava https://plus.google.com/112976571750925733219, Mansi Jain mansijain.nitrr@gmail.com">
 		<meta name="robots" content="noindex,nofollow">
 		<meta name="google" content="notranslate"><!--Dublin Core Start=-->
-		<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+		<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/">
 		<meta name="DC.Title" content="Renaissance Pirates">
 		<meta name="DC.Title" content="Online Treasure Hunt">
 		<meta name="DC.Title" content="Eclectika Online Game">

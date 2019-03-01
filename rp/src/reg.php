@@ -4,9 +4,9 @@ require_once('solvemedialib.php');
 //include the Solve Media library
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css' />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Eclectika 2014 | Rejoicing DA Renaissance</title>
@@ -88,19 +88,19 @@ require_once('solvemedialib.php');
     </style>
 </head>
 
-<body style="background-image:url(http://eclectika.org/test3/css/images/bg.jpg);background-size:cover;height:100%;width:100%; background-attachment:fixed; font-family:Merienda;">
+<body style="background-image:url(https://eclectika.org/test3/css/images/bg.jpg);background-size:cover;height:100%;width:100%; background-attachment:fixed; font-family:Merienda;">
     <div id="wrapper">
         <div id="header" class="header">
             <ul>
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white">Home</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white">Home</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Online Events</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Online Events</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Accomodation</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Accomodation</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Events</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Events</a></li>
 
-                <li><a href="http://eclectika.org/index1.php" style="text-decoration:none; color:white;">Contact Us</a></li>
+                <li><a href="https://eclectika.org/index1.php" style="text-decoration:none; color:white;">Contact Us</a></li>
             </ul>
         </div>
 
@@ -202,7 +202,7 @@ if($_POST)
 					{
 						move_uploaded_file($_FILES["file"]["tmp_name"], $pic);
 					}
-					$link='<a href="http://eclectika.org/verify.php?otp='.$otp.'">Verify Email</a>';
+					$link='<a href="https://eclectika.org/verify.php?otp='.$otp.'">Verify Email</a>';
 					echo '<br/>Registration Complete!!';
 					//echo $link;
 					//mail();

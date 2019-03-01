@@ -4,9 +4,9 @@ require('connect.php');
 //include the Solve Media library
 ?>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css' />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>Renaissance Pirates | Admin Panel </title>

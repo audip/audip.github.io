@@ -20,11 +20,11 @@ else
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <meta charset="UTF-8">
     <meta name="keywords" content="Eclectika 2014, Treasure Hunt, Eclectika, Online Game, Pre-Eclectika Event">
-    <meta name="author" content="Aditya Purandare http://plus.google.com/+AdityaPurandare,
+    <meta name="author" content="Aditya Purandare https://plus.google.com/+AdityaPurandare,
             Krishna Mohan Srivastava https://plus.google.com/112976571750925733219, Mansi Jain mansijain.nitrr@gmail.com">
     <meta name="robots" content="noindex,nofollow">
     <meta name="google" content="notranslate"><!--Dublin Core Start=-->
-    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <link rel="schema.DC" href="https://purl.org/dc/elements/1.1/">
     <meta name="DC.Title" content="Treasure Hunt Home">
     <meta name="DC.Title" content="Eclectika Online Game">
     <meta name="DC.Creator" content="Aditya Purandare">
@@ -154,7 +154,7 @@ if($_POST)
 					{
 						move_uploaded_file($_FILES["file"]["tmp_name"], $img);
 					}*/
-					$link='<a href="http://eclectika.org/quiz/verify.php?otp='.$otp.'" style="color:white;">VERIFY EMAIL ADDRESS</a>';
+					$link='<a href="https://eclectika.org/quiz/verify.php?otp='.$otp.'" style="color:white;">VERIFY EMAIL ADDRESS</a>';
 					echo 'Data Captured Successfully! Redirecting...';
 					//echo $link;
 					//Mail Code Starts Here - Written by Aditya Purandare
@@ -164,27 +164,27 @@ if($_POST)
 					//begin of HTML message
 					$message = '<html>
 				<head>
-					<link href="http://fonts.googleapis.com/css?family=Merienda" rel="stylesheet" type="text/css">
+					<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet" type="text/css">
 					<style>
 						a{
 						    color: white;
 						}
 					</style>
 				</head>
-					<body style="background:url(http://www.eclectika.org/test3/css/images/bg.jpg);background-size:cover;font-family:Merienda;">
+					<body style="background:url(https://www.eclectika.org/test3/css/images/bg.jpg);background-size:cover;font-family:Merienda;">
 					<font color="White">
 					Dear <strong><em>'.$name.'</em></strong>, <br/>
-					<img src="http://eclectika.org/test3/css/images/eclectikacover.jpg" style="width: 70%;"/>
+					<img src="https://eclectika.org/test3/css/images/eclectikacover.jpg" style="width: 70%;"/>
 					<p>Welcome to Central India&#39;s Largest Cultural &amp; Technical Festival, ECLECTIKA 2014, is starting on 21st, 22nd &amp; 23rd February &#39;14</p>
 					<p>
 					Thank You for Registering to Eclectika &#39;s Official Website, we will soon start Updating you on Eclectika&#39;s Progress.
 					</p>
 					<p>
-					Complete the signup process for <a href="http://eclectika.org">Eclectika.org</a>, by clicking '.$link.';
+					Complete the signup process for <a href="https://eclectika.org">Eclectika.org</a>, by clicking '.$link.';
 					Or Enter the following when prompted :<span style="color:red">'.$otp.'</style>
 					</p>
 					<p>
-					Follow us on our Social channels: <a><img src="http://eclectika.org/images/facebook.png" width="30" height="30"/></a>&nbsp; <a><img src="http://eclectika.org/images/twitter.png" width="30" height="30"/></a>
+					Follow us on our Social channels: <a><img src="https://eclectika.org/images/facebook.png" width="30" height="30"/></a>&nbsp; <a><img src="https://eclectika.org/images/twitter.png" width="30" height="30"/></a>
 					</p>
 					<br/>
 					Regards,<br/>

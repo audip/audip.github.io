@@ -5,28 +5,28 @@
 					$name = $_POST['name'];
 					$from    = "admin@eclectika.org";
 					$otp=uniqid();
-					$link='<a href="http://eclectika.org/quiz/verify.php?otp='.$otp.'" style="color:white;">VERIFY EMAIL ADDRESS</a>';
+					$link='<a href="https://eclectika.org/quiz/verify.php?otp='.$otp.'" style="color:white;">VERIFY EMAIL ADDRESS</a>';
 
 					//begin of HTML message
 					$message = '<html>
 				<head>
-					<link href="http://fonts.googleapis.com/css?family=Merienda" rel="stylesheet" type="text/css">
+					<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet" type="text/css">
 				</head>
 					<body style="font-family:Merienda;">
 					<font color="Black">
 					
-					<img src="http://eclectika.org/test3/css/images/eclectikacover.jpg" style="width: 60%;"/>
+					<img src="https://eclectika.org/test3/css/images/eclectikacover.jpg" style="width: 60%;"/>
 					Dear <strong><em>'.$name.'</em></strong>, <br/>
 					<p>Welcome to Central India&#39;s Largest Cultural &amp; Technical Festival, ECLECTIKA 2014, is starting on 21st, 22nd &amp; 23rd February &#39;14</p>
 					<p>
 					Thank You for Registering to Eclectika &#39;s Official Website, we will soon start Updating you on Eclectika&#39;s Progress.
 					</p>
 					<p>
-					Complete the signup process for <a href="http://eclectika.org">Eclectika.org</a>, by clicking '.$link.';
+					Complete the signup process for <a href="https://eclectika.org">Eclectika.org</a>, by clicking '.$link.';
 					Or Enter the following when prompted :<span style="color:red">'.$otp.'</style>
 					</p>
 					<p>
-					Follow us on our Social channels: <a href="http://www.facebook.com/eclectika.nitrr"><img src="http://eclectika.org/images/facebook.png" width="30" height="30"/></a>&nbsp; <a href="http://twitter.com/eclectika_nitrr"><img src="http://eclectika.org/images/twitter.png" width="30" height="30"/></a>
+					Follow us on our Social channels: <a href="https://www.facebook.com/eclectika.nitrr"><img src="https://eclectika.org/images/facebook.png" width="30" height="30"/></a>&nbsp; <a href="https://twitter.com/eclectika_nitrr"><img src="https://eclectika.org/images/twitter.png" width="30" height="30"/></a>
 					</p>
 					<br/>
 					Regards,<br/>

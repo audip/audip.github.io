@@ -8,7 +8,7 @@ $facebook = new Facebook(array(
 
 /*header('https://www.facebook.com/dialog/oauth?
     client_id=302979109716651
-   &redirect_uri=http://eclectika.org/quiz/home.php');*/
+   &redirect_uri=https://eclectika.org/quiz/home.php');*/
   // Include facebook SDK file
 /*
 $user = $facebook->getUser();
@@ -25,7 +25,7 @@ if ($user) {
 }
 if ($user) {
   $logoutUrl = $facebook->getLogoutUrl(array(
-		 'next' => 'http://eclectika.org/logout.php',  // Logout URL full path
+		 'next' => 'https://eclectika.org/logout.php',  // Logout URL full path
 		));
 } else {
  $loginUrl = $facebook->getLoginUrl(array(

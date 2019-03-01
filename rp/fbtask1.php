@@ -6,7 +6,7 @@ require('fb.php');
 <html>
 	<head>
 		<title>Renaissance Pirates | Task 1</title>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 		<style>
 			body{
 				font-size: 18px;
@@ -154,10 +154,10 @@ require('fb.php');
 <h1><u>Facebook Page for Renaissance Pirates</u></h1>
 <br/><br/>
 	<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-post" data-href="http://www.facebook.com/photo.php?fbid=596076197149289&amp;set=a.595143727242536.1073741827.595017373921838&amp;type=1" data-width="800"><div class="fb-xfbml-parse-ignore"><a href="http://www.facebook.com/photo.php?fbid=596076197149289&amp;set=a.595143727242536.1073741827.595017373921838&amp;type=1">Post</a> by <a href="http://www.facebook.com/renaissancepirates">Renaissance Pirates</a>.</div></div>
+<div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=596076197149289&amp;set=a.595143727242536.1073741827.595017373921838&amp;type=1" data-width="800"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/photo.php?fbid=596076197149289&amp;set=a.595143727242536.1073741827.595017373921838&amp;type=1">Post</a> by <a href="https://www.facebook.com/renaissancepirates">Renaissance Pirates</a>.</div></div>
 
 	<div id="fbwrap" >
-	<div class="fb-like-box" data-href="http://www.facebook.com/renaissancepirates" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"
+	<div class="fb-like-box" data-href="https://www.facebook.com/renaissancepirates" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"
 	data-like="1"></div></div>
 	<p class="bold foot">Created by Aditya Purandare, Krishna Srivastava &amp; Mansi Jain</p>
 	<script src="src/jquery.js"></script>
